@@ -11,8 +11,8 @@
  * @license https://opensource.org/licenses/MIT MIT License
  */
 
-namespace NextPHP\Rest;
-
+ namespace NextPHP\Rest\Http;
+ 
 /**
  * Class Request
  * 
