@@ -1,0 +1,58 @@
+example-project/
+├── app/
+│   ├── Entity/
+│   │   └── User.php
+│   ├── Repository/
+│   │   └── UserRepository.php
+│   ├── Service/
+│   │   └── UserService.php
+├── vendor/
+│   ├── nextphp/
+│   │   ├── data/                           my package folder
+│   │   │   ├── src/
+│   │   │   │   ├── Persistence/
+│   │   │   │   │   ├── Entity.php
+│   │   │   │   │   ├── Id.php
+│   │   │   │   │   ├── Column.php
+│   │   │   │   │   ├── ManyToOne.php
+│   │   │   │   │   ├── OneToMany.php
+│   │   │   │   │   ├── ManyToMany.php
+│   │   │   │   │   ├── OneToOne.php
+│   │   │   │   │   ├── Table.php
+│   │   │   │   ├── BaseRepository.php
+│   │   │   │   ├── Repository.php
+│   │   │   │   ├── Service.php
+│   │   │   │   ├── DatabaseConnector.php
+├── composer.json
+├── index.php
+├── CONTRIBUTING.php
+├── FAQ.php
+├── LICENSE.php
+├── README.php
+
+nextphp/
+├── rest/
+│   ├── src/
+│   │   ├── Http/
+│   │   │   ├── Get.php
+│   │   │   ├── Post.php
+│   │   │   ├── Put.php
+│   │   │   ├── Delete.php
+│   │   │   ├── Patch.php
+│   │   │   ├── Options.php
+│   │   │   ├── Head.php
+│   │   │   ├── Trace.php
+│   │   │   ├── Connect.php
+│   │   │   ├── Pri.php
+│   │   │   ├── RouteGroup.php
+│   │   │   ├── Middleware/
+│   │   │   │   ├── AuthMiddleware.php
+│   │   ├── Router.php
+│   │   ├── Request.php
+│   │   ├── Response.php
+├── composer.json
+├── index.php
+├── CONTRIBUTING.php
+├── FAQ.php
+├── LICENSE.php
+├── README.php
