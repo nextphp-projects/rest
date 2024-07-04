@@ -2,7 +2,7 @@
     "name": "nextphp/rest",
     "description": "The NextPHP Rest package provides powerful routing capabilities and HTTP handling for PHP developers. This package supports all RESTful methods (GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD, TRACE, CONNECT, PRI) and various response formats such as JSON, XML, HTML, TEXT, and CSV. It is part of the NextPHP Framework, a modern and lightweight PHP framework designed for performance and scalability.",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "license": "MIT",
     "authors": [
         {
