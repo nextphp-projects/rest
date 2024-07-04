@@ -11,7 +11,7 @@
  * @license https://opensource.org/licenses/MIT MIT License
  */
 
- namespace NextPHP\Resr;
+namespace NextPHP\Rest;
 
  #[\Attribute(\Attribute::TARGET_CLASS)]
  /**
