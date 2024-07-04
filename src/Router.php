@@ -25,6 +25,8 @@ use NextPHP\Rest\Http\Connect;
 use NextPHP\Rest\Http\Pri;
 use NextPHP\Rest\Http\RouteGroup;
 use NextPHP\Rest\Http\Middleware;
+use NextPHP\Rest\Http\Request;
+use NextPHP\Rest\Http\Response;
 use NextPHP\Log\LoggerInterface;
 use ReflectionClass;
 use ReflectionMethod;

@@ -1,6 +1,6 @@
 <?php
 
-namespace NextPHP\DI;
+namespace NextPHP\Rest\DI;
 
 use ReflectionClass;
 use Exception;

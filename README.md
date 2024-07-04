@@ -107,8 +107,8 @@ AuthMiddleware handle JWT authentication check for HTTP request and response.
 <?php
 namespace Example;
 
-use NextPHP\Rest\Request;
-use NextPHP\Rest\Response;
+use NextPHP\Rest\Http\Request;
+use NextPHP\Rest\Http\Response;
 use Firebase\JWT\JWT;
 use Firebase\JWT\Key;
 
@@ -273,8 +273,8 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 use NextPHP\Rest\DI\Container;
 use NextPHP\Rest\Router;
-use NextPHP\Rest\Request;
-use NextPHP\Rest\Response;
+use NextPHP\Rest\Http\Request;
+use NextPHP\Rest\Http\Response;
 use NextPHP\App\Resource\UserResource;
 use NextPHP\App\Resource\PostResource;
 
